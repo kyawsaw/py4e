@@ -1,0 +1,14 @@
+TRY
+  READ INPUT "Enter number"
+  SET number = 0
+  SET last_number = 1
+  SET counter = 0
+  FOR counter is less than input number:
+    COMPUTE result of the sum of number and last_number
+    ASSIGN last_number to number
+    ASSIGN result to last_number
+    OUTPUT number
+    count +=1
+EXCEPT
+  OUTPUT "Enter positive number"
+End
